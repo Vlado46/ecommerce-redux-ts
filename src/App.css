@@ -1,0 +1,38 @@
+#root,
+body {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.img {
+  height: 140px;
+  width: 100px;
+  object-fit: cover;
+  margin-right: auto;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.card-detail-img {
+  height: 480px;
+  max-width: 55vw;
+  margin: 3rem auto;
+}
+
+@media screen and (max-width: 600px) {
+  .card-detail-img {
+    height: 240px;
+    width: fit-content;
+    overflow: hidden;
+  }
+}
